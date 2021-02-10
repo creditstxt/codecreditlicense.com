@@ -8,12 +8,13 @@ html {
 }
 
 header[role=banner],
+nav[role=navigation],
 main[role=main] {
   margin: 1rem auto;
   max-width: 30rem;
 }
 
-main[role=main] {
+nav[role=navigation] {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
