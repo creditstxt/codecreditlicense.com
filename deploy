@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+SITE=codecreditlicense.com
+rsync -a --exclude .git --delete ./ $SITE:/var/www/$SITE/
