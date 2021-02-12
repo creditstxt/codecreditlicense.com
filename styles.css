@@ -2,9 +2,6 @@ html {
   font-family: sans-serif;
   line-height: 1.6;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
 }
 
 header[role=banner],
@@ -15,13 +12,13 @@ main[role=main] {
 }
 
 nav[role=navigation] {
-  border-top: 1px solid black;
   border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .conspicuous {
-  font-weight: bold;
   font-style: italic;
+  font-weight: bold;
 }
 
 a[href] {
