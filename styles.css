@@ -6,7 +6,8 @@ html {
 
 header[role=banner],
 nav[role=navigation],
-main[role=main] {
+main[role=main],
+footer[role=contentinfo] {
   margin: 1rem auto;
   max-width: 30rem;
 }
@@ -36,4 +37,9 @@ a[href]:hover {
   border-radius: 0.25rem;
   color: #0c5460;
   padding: 0.75rem 1.25rem;
+}
+
+footer[role=contentinfo] {
+  font-size: 85%;
+  text-align: right;
 }
