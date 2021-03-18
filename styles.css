@@ -12,6 +12,14 @@ footer[role=contentinfo] {
   max-width: 30rem;
 }
 
+header[role=banner] img {
+  max-width: 100%;
+}
+
+header[role=banner] p {
+  margin-top: 0.5rem;
+}
+
 nav[role=navigation] {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
