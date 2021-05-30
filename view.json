@@ -1,1 +1,8 @@
-{}
+{
+  "name": "Code Credit License",
+  "catchphrase": "the code-for-credit software license",
+  "domain": "codecreditlicense.com",
+  "latest": "1.1.0",
+  "github": "https://github.com/creditstxt/code-credit-license",
+  "minimize": "diffs"
+}

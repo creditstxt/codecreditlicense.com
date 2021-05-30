@@ -1,4 +1,4 @@
 <header role=banner>
-  <img src=/logo.png alt="Code Credit License">
-  <p>the code-for-credit software license</p>
+  <a href=/><img src=/logo.png alt="Code Credit License"></a>
+  <p>{{catchphrase}}</p>
 </header>
