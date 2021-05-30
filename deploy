@@ -1,4 +1,5 @@
 #!/bin/sh
 set -e
+make
 SITE=codecreditlicense.com
 rsync -a --files-from=./deployed ./ $SITE:/var/www/$SITE/
