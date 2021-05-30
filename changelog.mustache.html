@@ -2,15 +2,11 @@
 <html lang=en-US>
   <head>
     <meta charset=UTF-8>
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>Code Credit License</title>
-    <link href=/styles.css rel=stylesheet>
+    <title>Changelog / Code Credit License</title>
+    {{>styles}}
   </head>
   <body>
-    <header role=banner>
-      <img src=/logo.png alt="Code Credit License">
-      <p>the code-for-credit software license</p>
-    </header>
+    {{>header}}
     <main role=main>
       <h1>Changelog</h1>
       <p>This page lists brief summaries of changes in each version.</p>
@@ -26,8 +22,6 @@
       <h2 id=1.0.0>Version 1.0.0</h2>
       <p>first public release</p>
     </main>
-    <footer role=contentinfo>
-      <p><a href=https://github.com/creditstxt/code-credit-license>Discuss on GitHub.</a></p>
-    </footer>
+    {{>footer}}
   </body>
 </html>

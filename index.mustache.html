@@ -4,21 +4,16 @@
     <meta charset=UTF-8>
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>Code Credit License</title>
-    <link href=/styles.css rel=stylesheet>
+    {{>styles}}
   </head>
   <body>
-    <header role=banner>
-      <img src=/logo.png alt="Code Credit License">
-      <p>the code-for-credit software license</p>
-    </header>
+    {{>header}}
     <nav role=navigation>
       <p><a href=/license/1.1.0>Read the latest version</a> or <a href=/license/1.1.0.md download="LICENSE.md">download a plain-text <code>LICENSE</code> copy</a>.</p>
       <p><a href=/showcase>Discover neat projects using the license.</a></p>
       <p><a href=/add-on/1.1.0>Read the latest version of an add-on for use with other licenses</a> or <a href=/add-on/1.1.0.md download=CREDIT.md>download a plain-text copy</a>.</p>
       <p><a href=/changelog>Review the changelog for the license.</a></p>
     </nav>
-    <footer role=contentinfo>
-      <p><a href=https://github.com/creditstxt/code-credit-license>Discuss on GitHub.</a></p>
-    </footer>
+    {{>footer}}
   </body>
 </html>

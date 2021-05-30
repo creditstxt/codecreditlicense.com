@@ -3,14 +3,11 @@
   <head>
     <meta charset=UTF-8>
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>Showcase / Code Credit License</title>
-    <link href=/styles.css rel=stylesheet>
+    <title>Project Showcase / Code Credit License</title>
+    {{>styles}}
   </head>
   <body>
-    <header role=banner>
-      <img src=/logo.png alt="Code Credit License">
-      <p>the code-for-credit software license</p>
-    </header>
+    {{>header}}
     <main role=main>
       <h2>Project Showcase</h2>
       <p>These fine projects are available under the <a href=/>Code Credit License</a> or other terms with the Code Credit Add-On:</p>
@@ -19,8 +16,6 @@
       </ul>
       <p>To add your project to this list, <a href=https://github.com/kemitchell/codecreditlicense.com/edit/main/showcase.html>send a pull request</a>!</p>
     </main>
-    <footer role=contentinfo>
-      <p><a href=https://github.com/creditstxt/code-credit-license>Discuss on GitHub.</a></p>
-    </footer>
+    {{>footer}}
   </body>
 </html>
