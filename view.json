@@ -3,6 +3,7 @@
   "catchphrase": "the code-for-credit software license",
   "domain": "codecreditlicense.com",
   "latest": "1.1.0",
-  "github": "https://github.com/creditstxt/code-credit-license",
+  "license repo": "https://github.com/creditstxt/code-credit-license",
+  "website repo": "https://github.com/creditstxt/codecreditlicense.com",
   "minimize": "diffs"
 }
