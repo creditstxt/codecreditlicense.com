@@ -1,5 +1,5 @@
 mustache=node_modules/.bin/mustache
-templates=$(wildcard *.mustache.html)
+templates=$(wildcard **/*.mustache.html)
 partials=$(wildcard partials/*)
 targets=logo.png $(templates:.mustache.html=.html)
 
