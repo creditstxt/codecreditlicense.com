@@ -12,7 +12,7 @@ all: $(targets)
 	convert $< $@
 
 $(mustache):
-	npm ci
+	npm i
 
 .PHONY: clean
 
